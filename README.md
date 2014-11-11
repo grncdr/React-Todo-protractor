@@ -19,11 +19,13 @@ Running the tests
 
 2. Start the http server using ```python -m SimpleHTTPServer``` (Or any other HTTP server like apache would do)
 
-3.  Once the server is started navigate to the react folder using a web browser.
+3. If it's not already running, run `webdriver-manager start` in another terminal window to start up the webdriver manager.
 
-4.  Open conf.js and update the ```browser.driver.get('Please update the URL from where the app is accessible');``` with the   URL where the app is accessible.
+4.  Once the server is started navigate to the react folder using a web browser.
 
-5.  Open a command line interface and run the tests using ```protractor conf.js```
+5.  Open test.js and update the ```browser.driver.get('Please update the URL from where the app is accessible');``` with the   URL where the app is accessible.
+
+6.  Open a command line interface and run the tests using ```protractor conf.js```
 
  
   
